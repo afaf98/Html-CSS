@@ -74,6 +74,8 @@
   align-items: center;
   flex-direction: column;
   justify-content: space-evenly;
+  /* clip-path: polygon(100% 90%, 50% 150%, 0 90%, 0 0, 100% 0); */
+  /* position: relative; */
 }
 
 .info-container-2-box1 {
@@ -110,14 +112,36 @@
   justify-content: space-evenly;
   flex-direction: column;
   align-items: center;
+  /* position: absolute; */
+}
+.info-container-3-yellow-circle {
+  background-color: yellow;
+  height: 60px;
+  width: 10%;
+  border-radius: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: red;
+  position: absolute;
+  top: -25px;
+  left: -30px;
+  font-size: 2.5rem;
 }
 
 .info-container-3-box1 {
   background-color: red;
+  color: white;
   height: 15vh;
-  width: 50vw;
+  width: 60vw;
   text-align: center;
-  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  font-size: 1.25rem;
+  position: relative;
 }
 .info-container-3-box2 {
   text-align: center;
@@ -127,6 +151,7 @@
   text-align: center;
   font-size: 1.5rem;
   color: red;
+  background-color: beige;
   border-radius: 30px;
   border-color: red;
 }
