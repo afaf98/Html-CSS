@@ -1,6 +1,10 @@
 /* * {
   border: 1px solid red;
 } */
+/* Reset */
+body {
+  margin: 0px;
+}
 
 /* Navbar style */
 
@@ -73,14 +77,16 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  justify-content: space-evenly;
-  /* clip-path: polygon(100% 90%, 50% 150%, 0 90%, 0 0, 100% 0); */
+  justify-content: center;
+  clip-path: polygon(100% 73%, 47% 88%, 0 72%, 0 0, 100% 0);
   /* position: relative; */
 }
 
 .info-container-2-box1 {
-  height: 40vh;
+  height: 30vh;
   width: 60vw;
+  background-color: blue;
+  margin-bottom: 1.5rem;
 }
 
 .info-container-2-box1 p {
@@ -107,13 +113,16 @@
 
 .info-container-3 {
   background-color: beige;
-  height: 45vh;
+  margin-top: -30vh;
+  height: 60vh;
+  padding-top: 20vh;
   display: flex;
   justify-content: space-evenly;
   flex-direction: column;
   align-items: center;
   /* position: absolute; */
 }
+
 .info-container-3-yellow-circle {
   background-color: yellow;
   height: 60px;
@@ -149,14 +158,18 @@
 }
 .info-container-3 button {
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: red;
   background-color: beige;
-  border-radius: 30px;
+  border-radius: 10px;
   border-color: red;
+  padding: 0.75rem;
+}
+.download-button__text--black {
+  color: black;
 }
 .info-container-3 p {
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: black;
 }
 /* Fourth Container for info managed with flexbox */
