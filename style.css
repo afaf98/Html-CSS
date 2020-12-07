@@ -1,6 +1,6 @@
-/* * {
+* {
   border: 1px solid red;
-} */
+}
 
 /* Navbar style */
 
@@ -181,7 +181,64 @@
 
 .quiz-container {
   background-color: rgb(196, 185, 185);
-  height: 200vh;
+  height: 300vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+
+.bushfire-plan {
+  background-color: red;
+  color: white;
+  height: 10vh;
+  width: 50vw;
+  text-align: center;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  font-size: 1.8rem;
+}
+
+.bushfire-plan-yellow-circle {
+  background-color: yellow;
+  height: 35px;
+  width: 12%;
+  border-radius: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: red;
+  position: absolute;
+  top: -18px;
+  left: -20px;
+  font-size: 2.5rem;
+}
+
+.quiz-card {
+  height: 30vh;
+  width: 60vw;
+  background-color: grey;
+  border-radius: 15px;
+  position: relative;
+}
+.quiz-yellow-circle {
+  background-color: red;
+  height: 60px;
+  width: 12%;
+  border-radius: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 10px;
+  left: -35px;
+  font-size: 2.5rem;
 }
 
 /* Download container */
